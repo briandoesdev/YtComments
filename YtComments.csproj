@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Apis" Version="1.50.0" />
+    <PackageReference Include="Google.Apis.YouTube.v3" Version="1.50.0.2232" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Utility.CommandLine.Arguments" Version="5.0.0" />
+  </ItemGroup>
+
+</Project>
